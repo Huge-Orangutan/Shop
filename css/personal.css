@@ -1,0 +1,78 @@
+header{
+	height: unset !important;
+}
+header img{
+	display: block;
+}
+.banner{
+	width: 7.5rem;
+}
+.control{
+	display: flex;
+	align-items: center;
+	height: 1.96rem;
+	background-color: #ffffff;
+}
+.control>div{
+	width: 33.3%;
+	text-align: center;
+}
+.control>div p{
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+	color: #302f2f;
+	margin-top: 0.22rem;
+}
+.control>div:nth-child(1){
+	border-right: 0.01rem solid #c2c2c2;
+}
+.control>div:nth-child(2){
+	border-right: 0.01rem solid #c2c2c2;
+}
+.control>div:nth-child(3){
+	
+}
+.control>div:nth-child(1) img{
+	width: 0.39rem;
+	height: 0.45rem;
+}
+.control>div:nth-child(2) img{
+	width: 0.48rem;
+	height: 0.42rem;	
+}
+.control>div:nth-child(3) img{
+	width: 0.46rem;
+	height: 0.46rem;	
+}
+.install{
+	margin-top: 0.27rem;
+	display: flex;
+	height: 0.89rem;
+	background-color: #ffffff;
+	align-items: center;
+	border-top: solid 0.01rem #c3c3c3;
+	border-bottom: solid 0.01rem #c3c3c3;
+}
+.install img{
+	margin: 0 0.24rem;
+	width: 0.46rem;
+	height: 0.46rem;
+}
+.install p{
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	letter-spacing: 0rem;
+	color: #302f2f;
+	flex: 1;
+}
+.install span{
+	width: 0.68rem;
+	font-size: 0.5rem;
+	text-align: center;
+	color: #dadada;
+}
+.install-4{
+	margin-top: unset;
+}
+	

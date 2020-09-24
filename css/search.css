@@ -1,0 +1,123 @@
+/* 调整返回图标大小 */
+body{
+	height: 100%;
+}
+.back-icon{
+	width: 0.72rem !important;
+	text-align: center;
+}
+.icon{
+	width: 1.14rem !important;
+	text-align: center;
+}
+.icon img{
+	width: 0.64rem;
+	height: 0.64rem;
+}
+.mui-icon{
+	font-size: 0.57rem !important;
+	color: white;
+}/* 调整返回图标大小 */
+.hot-search{
+	margin-top: 0.2rem !important;
+	width: 94.8%;
+	height: 3.2rem;
+	background-color: #ffffff;
+	margin: 0 auto;
+	font-family: MicrosoftYaHei;
+	font-size: 0.3rem;
+	line-height: 0.58rem;
+	left: 0.3rem;
+	letter-spacing: 0rem;
+	color: #303030;
+}
+.hot-search .contanier{
+	margin: 0 auto;
+	
+}
+.hot-search .contanier .box{
+		border-bottom: solid 0.01rem #c2c2c2;
+		height: 0.84rem;
+		display: flex;
+		align-items: center;
+		width:93.53%;
+		height: 0.84rem;
+		margin: 0 auto;
+}
+ .hot-search .contanier .box>div:nth-child(1){
+  border-right: solid 0.01rem #c2c2c2;
+ }
+ .hot-search .contanier .box div{
+   width: 50%;
+ 	border-bottom: unset;
+ 	position: relative;
+ 	text-align: center;
+ }
+ .hot-search .contanier .box:nth-child(1){
+  width: 100%;
+	border-bottom: unset;
+	position: relative;
+	text-align: center;
+}
+.hot-search .contanier .box:nth-child(1)>div:nth-child(2){
+ 	width: 40.084%;
+	border-left: solid 1px #c2c2c2;
+	border-right: solid 0.01rem #c2c2c2;
+	padding: 0 0.05rem;
+ }
+ .hot-search .contanier .box:nth-child(1)::after{
+   position: absolute;  
+	 content: '';
+	 height: 0.01rem;
+	 background-color: #c2c2c2;
+	 width: 93.53%;
+	 display: block;
+	 bottom: 0;
+ }
+ .point{
+	 display: flex;
+	 justify-content: center;
+	 height: 0.7rem;
+	 align-items: center;
+ }
+ .point div{
+	 	width: 0.17rem;
+	 	height: 0.17rem;
+	 	background-color: unset;
+	 	border: solid 0.01rem #b6b6b6;
+		border-radius: 50%;
+		margin: 0 0.03rem
+ }
+ .point div:first-child{
+ 	 	background-color: #fe9002;
+ }
+ .history-search{
+	 margin-top: 0.11rem;
+	 width: 100%; 
+ }
+ .history-search>div{
+	 height: 0.97rem;
+	 padding-left: 0.25rem;
+	 background-color: #ffffff;
+	 display: flex;
+	 align-items: center;
+ }
+ .history-search>div img{
+   margin-right: 0.15rem;
+	 width: 0.28rem;
+	 height: 0.27rem;
+ }
+ .history{
+	 	border-bottom: solid 0.01rem #c2c2c2;
+ }
+ .clear-history{
+	 justify-content: center;
+	 padding-left: 0px !important;
+ }
+ .clear-history img{
+   width: 0.29rem;
+   height: 0.31rem;
+ }
+ .mui-icon-trash{
+	 color: black;
+ }
