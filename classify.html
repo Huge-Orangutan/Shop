@@ -15,7 +15,7 @@
 			<img class="trademark" src="images/public/1.jpg" />
 		</div>
 		<div>
-			<input type="search" class="mui-input-clear search-product" placeholder="输入商家、分类或商圈">
+			<input onfocus="window.location.href='search.html'" type="search" class="mui-input-clear search-product" placeholder="输入商家、分类或商圈">
 		</div>
 	  <a class="notice"><img src="images/public/2.jpg"></a>
 		<a class="QR-code"><img src="images/public/3.jpg"></a> 
@@ -43,7 +43,7 @@
 		<!- 右边列表 ->
 		<div class="right-list">
 			<div>优选水果</div>
-			<ul class="mui-table-view">
+			<ul class="mui-table-view" onclick="window.location.href='detail.html'">
 			    <li class="mui-table-view-cell mui-media">
 			            <img src="images/classify/1.jpg">
 			            <div class="text-left">
@@ -141,9 +141,9 @@
 	<footer>
 		<div id="footer">
 			<div class="row">
-				<div><img src="images/public/4.jpg" /><p>首页</p></div>
-				<div><img src="images/public/9.jpg" /><p>闪送超市</p></div>
-				<div><img src="images/public/6.jpg" /><p>我的</p></div>
+				<div onclick="window.location.href='index.html'"><img src="images/public/4.jpg" /><p>首页</p></div>
+				<div onclick="window.location.href='classify.html'"><img src="images/public/9.jpg" /><p>闪送超市</p></div>
+				<div onclick="window.location.href='personal.html'"><img src="images/public/6.jpg" /><p>我的</p></div>
 				<div><img src="images/public/7.jpg" /><p>￥0起送</p></div>
 			</div>
 		</div>
